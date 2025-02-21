@@ -13,7 +13,7 @@ function Header() {
     return (
         <header>
             <Navbar expand="lg" className="bg-body-tertiary justify-content-between navbar" bg="light" data-bs-theme="light">
-                    <Navbar.Brand href="/">Easy Store</Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/estore/">Easy Store</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto me-auto">
@@ -33,20 +33,20 @@ function Header() {
                             </Form>
                         </Nav>
                         <Nav className="ms-auto ">
-                        <Nav.Link href="/" className="ms-auto">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/estore/" className="ms-auto">Home</Nav.Link>
                         <Dropdown>
                             <Dropdown.Toggle variant="light" id="dropdown-basic">Shop</Dropdown.Toggle>
                             <Dropdown.Menu>
-                                <Dropdown.Item as={Link} to="/category/men's clothing">Mens</Dropdown.Item>
-                                <Dropdown.Item as={Link} to="/category/women's clothing">Womens</Dropdown.Item>
+                                <Dropdown.Item as={Link} to="/category/mens clothing">Mens</Dropdown.Item>
+                                <Dropdown.Item as={Link} to="/category/womens clothing">Womens</Dropdown.Item>
                                 <Dropdown.Item as={Link} to="/category/electronics">Electronics</Dropdown.Item>
                                 <Dropdown.Item as={Link} to="/category/jewelery">Jewelery</Dropdown.Item>
 
                             </Dropdown.Menu>
                         </Dropdown>
-                        <Nav.Link href="#" className="ms-auto">Wishlist</Nav.Link>
-                        <Nav.Link href="#" className="ms-auto">Cart</Nav.Link>
-                        <Nav.Link href="#" className="ms-auto">Login</Nav.Link>
+                        <Nav.Link as={Link} to="/wishlist" className="ms-auto">Wishlist</Nav.Link>
+                        <Nav.Link as={Link} to="/cart" className="ms-auto">Cart</Nav.Link>
+                        <Nav.Link as={Link} to="/login" className="ms-auto">Login</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 
