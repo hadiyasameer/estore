@@ -1,0 +1,117 @@
+footer {
+    height: 50px;
+    padding-top: 10px;
+    background-color: rgb(0, 50, 250);
+}
+.navbar{
+    padding: 10px 50px;
+}
+.carousel-image {
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.body {
+    background-color: rgb(245, 249, 252);
+    padding: 10px;
+}
+.productContainer{
+    padding: 10px 100px;
+}
+.productItem {
+    border-radius: 10px;
+    border: 1px solid grey;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(245, 249, 252);
+}
+
+.productImage {
+    width: 90%;
+    margin: 5%;
+    height: 300px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 280px;
+}
+
+.card-actions {
+    margin-top: auto;
+}
+
+.viewButton,
+.addButton {
+    width: 80%;
+    margin-top: 10px;
+}
+
+.viewButton {
+    margin-top: 0;
+}
+.discount{
+    display: flex;
+    flex-direction: row;
+    background-color:#00196d;
+}
+.discount-words{
+    width: 100%;
+    margin: auto;
+}
+.discount-words h1,h2,p{
+    color: white;
+    margin-left: 50px;
+}
+.Button{
+    margin-left: 300px;
+    background-color:#fec401 ;
+    color:#00196d;
+}
+.discount-image{
+    width: 800px;
+}
+.yellow{
+    color: #fec401;
+}
+.title{
+    text-align: center;
+}
+.showProductDetails{
+    display: flex;
+    flex-direction: row;
+}
+.img-div,.description-div{
+    height: 700px;
+    overflow: hidden;
+    width: 50%;
+}
+.detail-img{
+    height: 90%;
+    max-width: 80%;
+    padding:50px;
+}
+.details{
+    padding:20% 10% 0 0 ;   
+}
+.description{
+    padding: 10px  ;
+    width: 60%;
+}
+.price{
+    padding-right: 40%;
+}
+.detailsButtons-div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 20%;
+}
+.more-items{
+    padding: 10px 100px;
+}
+#rowcategory{
+    margin: 0 10px;
+}
