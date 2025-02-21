@@ -13,7 +13,7 @@ function Header() {
     return (
         <header>
             <Navbar expand="lg" className="bg-body-tertiary justify-content-between navbar" bg="light" data-bs-theme="light">
-                    <Navbar.Brand as={Link} to="/estore/">Easy Store</Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/">Easy Store</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto me-auto">
@@ -33,7 +33,7 @@ function Header() {
                             </Form>
                         </Nav>
                         <Nav className="ms-auto ">
-                        <Nav.Link as={Link} to="/estore/" className="ms-auto">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/" className="ms-auto">Home</Nav.Link>
                         <Dropdown>
                             <Dropdown.Toggle variant="light" id="dropdown-basic">Shop</Dropdown.Toggle>
                             <Dropdown.Menu>
