@@ -37,8 +37,8 @@ function Header() {
                         <Dropdown>
                             <Dropdown.Toggle variant="light" id="dropdown-basic">Shop</Dropdown.Toggle>
                             <Dropdown.Menu>
-                                <Dropdown.Item as={Link} to="/category/mens clothing">Mens</Dropdown.Item>
-                                <Dropdown.Item as={Link} to="/category/womens clothing">Womens</Dropdown.Item>
+                                <Dropdown.Item as={Link} to="/category/men's clothing">Mens</Dropdown.Item>
+                                <Dropdown.Item as={Link} to="/category/women's clothing">Womens</Dropdown.Item>
                                 <Dropdown.Item as={Link} to="/category/electronics">Electronics</Dropdown.Item>
                                 <Dropdown.Item as={Link} to="/category/jewelery">Jewelery</Dropdown.Item>
 
