@@ -53,7 +53,7 @@ function ProductDetails() {
 
     return (
         <>
-            <Link to="/estore/">
+            <Link to="/">
                 <Button variant="info" className="backButton">Back</Button>
             </Link>
             <h1 className="title">{product.title}</h1>

@@ -7,20 +7,22 @@ import Main from './Components/Main'
 import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import ProductDetails from './Components/ProductDetails'
 import CategoryPage from './Components/CategoryPage';
+import SearchResults from './Components/SearchResults';
 
 function App() {
 
   return (
     <>
       <Router>
-      <Header />
+        <Header />
         <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/product/:productId' element={<ProductDetails />} />
           <Route path="/category/:categoryName" element={<CategoryPage />} />
+          <Route path="/search" element={<SearchResults />} />
 
         </Routes>
-      <Footer />
+        <Footer />
       </Router>
     </>
   )
